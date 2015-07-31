@@ -69,6 +69,7 @@ class IsoTest extends TutorialFunSuite {
     def __ifThenElse[C,A,B](c:Boolean, a:A, b:B)(implicit mA: Lift[A,C], mB: Lift[B,C], mC: Typ[C]): C
 
   }
+
 /**
 Test Case (Client Code)
 -----------------------
